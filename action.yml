@@ -1,0 +1,25 @@
+name: "SPO File Upload"
+description: "Upload a file, or files, to SharePoint Online"
+author: "Justin McLawhorn"
+branding:
+  color: "blue"
+  icon: "upload-cloud"
+inputs:
+  site_url:
+    description: "Destination SPO Site URL"
+    required: true
+  username:
+    description: "SPO account username. Must have write privileges on designated site."
+    required: true
+  password:
+    description: "SPO account password."
+    required: true
+  destination_path:
+    description: "Relative destination path on SPO site. If path does not exist, it will be created."
+    required: false
+  source_path:
+    description: "Source file paths to be uploaded to SPO. Separate multiple files using a semicolon."
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"

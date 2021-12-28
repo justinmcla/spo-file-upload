@@ -1,0 +1,19 @@
+{
+  "name": "spo-file-upload",
+  "version": "1.0.0",
+  "description": "Upload a file, or files, to SharePoint Online using the spsave package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinmcla/spo-file-upload.git"
+  },
+  "author": "Justin McLawhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinmcla/spo-file-upload/issues"
+  },
+  "homepage": "https://github.com/justinmcla/spo-file-upload#readme"
+}
