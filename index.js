@@ -22,7 +22,7 @@ try {
 
   const fileOptions = {
     folder: destinationPath,
-    source_path: source_path
+    glob: source_path
   }
 
   // Upload to SPO
@@ -35,5 +35,5 @@ try {
 
   console.error(error)
   core.setFailed(error)
-  
+
 }
